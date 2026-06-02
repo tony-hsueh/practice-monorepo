@@ -1,0 +1,12 @@
+{
+  "name": "vitest-changed-demo",
+  "private": true,
+  "scripts": {
+    "test": "vitest run",
+    "test:changed": "vitest run --changed",
+    "test:changed:prev": "vitest run --changed HEAD~1"
+  },
+  "devDependencies": {
+    "vitest": "^2.0.0"
+  }
+}
