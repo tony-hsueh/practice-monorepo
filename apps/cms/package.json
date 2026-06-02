@@ -2,6 +2,7 @@
   "name": "@demo/cms",
   "version": "1.0.0",
   "dependencies": {
-    "@demo/shared": "workspace:*"
+    "@demo/shared": "workspace:*",
+    "@demo/utils": "workspace:*"
   }
 }
