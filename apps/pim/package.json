@@ -1,6 +1,10 @@
 {
   "name": "@demo/pim",
   "version": "1.0.0",
+  "scripts": {
+    "test:unit": "vitest run",
+    "test:unit:changed": "vitest run --changed origin/main"
+  },
   "dependencies": {
     "@demo/shared": "workspace:*",
     "@demo/utils": "workspace:*"

@@ -1,6 +1,10 @@
 {
   "name": "@demo/shared",
   "version": "1.0.0",
+  "scripts": {
+    "test:unit": "vitest run",
+    "test:unit:changed": "vitest run --changed origin/main"
+  },
   "exports": {
     ".": "./src/index.ts"
   }
