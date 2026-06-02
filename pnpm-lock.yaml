@@ -26,6 +26,9 @@ importers:
       '@demo/shared':
         specifier: workspace:*
         version: link:../../packages/shared
+      '@demo/utils':
+        specifier: workspace:*
+        version: link:../../packages/utils
 
   packages/shared: {}
 
