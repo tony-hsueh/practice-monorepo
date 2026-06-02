@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "test": "vitest run",
-    "test:changed": "vitest run --changed",
+    "test:changed": "turbo run test:unit:changed --filter=...[origin/main]",
     "test:changed:prev": "vitest run --changed HEAD~1"
   },
   "devDependencies": {
